@@ -16,13 +16,13 @@ const HomePage = () => {
             <Row justify="center" align="middle" style={{ marginBottom: '80px' }} gutter={[32, 32]}>
                 <Col xs={24} md={14} className="fade-in">
                     <Title style={{ fontSize: '48px', fontWeight: 800, marginBottom: '24px' }}>
-                        Modern Authentication <br /> 
+                        Modern Authentication <br />
                         <span style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
                             Made Simple.
                         </span>
                     </Title>
                     <Paragraph style={{ fontSize: '18px', color: '#636e72', marginBottom: '32px' }}>
-                        Secure your application with our state-of-the-art authentication system. 
+                        Secure your application with our state-of-the-art authentication system.
                         Built with React, Express, and MongoDB.
                     </Paragraph>
                     <Space size="middle">
@@ -43,10 +43,10 @@ const HomePage = () => {
                     </Space>
                 </Col>
                 <Col xs={0} md={10}>
-                    <div style={{ 
-                        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', 
-                        width: '300px', 
-                        height: '300px', 
+                    <div style={{
+                        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                        width: '300px',
+                        height: '300px',
                         borderRadius: '30% 70% 70% 30% / 30% 30% 70% 70%',
                         margin: '0 auto',
                         display: 'flex',

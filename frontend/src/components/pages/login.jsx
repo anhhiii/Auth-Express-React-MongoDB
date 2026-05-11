@@ -36,16 +36,16 @@ const LoginPage = () => {
                         <Text type="secondary">Welcome back! Please enter your details.</Text>
                     </div>
                     <Form onFinish={onFinish} layout='vertical' size="large">
-                        <Form.Item 
-                            label="Email" 
-                            name="email" 
+                        <Form.Item
+                            label="Email"
+                            name="email"
                             rules={[{ required: true, message: 'Please input email!' }, { type: 'email', message: 'Invalid email format' }]}
                         >
                             <Input prefix={<MailOutlined style={{ color: '#bfbfbf' }} />} placeholder="your@email.com" />
                         </Form.Item>
-                        <Form.Item 
-                            label="Password" 
-                            name="password" 
+                        <Form.Item
+                            label="Password"
+                            name="password"
                             rules={[{ required: true, message: 'Please input password!' }]}
                         >
                             <Input.Password prefix={<LockOutlined style={{ color: '#bfbfbf' }} />} placeholder="••••••••" />
@@ -66,4 +66,4 @@ const LoginPage = () => {
     );
 };
 
-export default LoginPage;
+export default LoginPage;
