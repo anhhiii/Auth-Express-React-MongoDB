@@ -68,6 +68,3 @@ npm install
 npm run dev
 ```
 Ứng dụng sẽ chạy tại: `http://localhost:5173`
-
-## 📝 Thông tin tác giả
-Dự án được phát triển dựa trên khóa học của **ThS. Nguyễn Hữu Trung (Hỏi Dân IT)**.
